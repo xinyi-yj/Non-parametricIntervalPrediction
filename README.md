@@ -37,7 +37,7 @@ To reproduce the experiments or apply the models to your own data:
 ## 📊 Data Availability Statement
 Due to confidentiality and licensing agreements regarding the real-world electricity market operations, the raw operational dataset is not publicly uploaded to this repository.
 
-However, the data is available upon reasonable request for academic and research purposes. If you wish to access the dataset to reproduce our results, please contact: [yangjun04@buaa.edu.cn](mailto:yanngjun04@buaa.edu.cn)
+However, the data is available upon reasonable request for academic and research purposes. If you wish to access the dataset to reproduce our results, please contact: 📧 [yangjun04@buaa.edu.cn](mailto:yanngjun04@buaa.edu.cn) or [yangjun04@buaa.edu.cn](mailto:yanngjun04@buaa.edu.cn)
 
 ## 📎 Citation
 If you find this code or our paper useful for your research, please consider citing our work:
