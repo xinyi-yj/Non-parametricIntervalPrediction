@@ -3,19 +3,13 @@
 This repository contains the official implementation of the paper:  
 **"A Deep Learning-based Model for Interval Prediction of Real-time Clearing Price in Electricity Market"**
 
-## 💡 Highlights
+## Highlights
 * A novel electricity price interval prediction model is proposed.
 * Time-shift FC and greedy FS optimize electricity price feature dimensions.
 * VMD and CEEMDAN resolve extreme non-stationarity in clearing prices.
 * Non-parametric interval breaks coverage-sharpness trade-off in quantile regression.
 
-## 📝 Overview
-Real-time electricity clearing prices are characterized by extreme volatility, non-stationarity, and complex multidimensional dependencies. While deep learning point forecasting models perform well, they fail to quantify the underlying uncertainty. 
-
-This project provides a robust framework that:
-1. **Optimizes Features**: Uses time-shift construction and greedy selection.
-2. **Decomposes Signals**: Leverages VMD/CEEMDAN to handle extreme price non-stationarity.
-3. **Generates Intervals**: Proposes a novel **non-parametric similarity-based interval generator** that breaks the severe "coverage-sharpness trade-off" often suffered by end-to-end parametric models like Quantile Regression (LSTM-QR and the SOTA TCN-QR).
+## Graphical abstract 
 
 ## 📂 Repository Structure
 
