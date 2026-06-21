@@ -13,7 +13,7 @@ This repository contains the official implementation of the paper:
 * Non-parametric interval breaks coverage-sharpness trade-off in quantile regression.
 
 ## 🖼️ Graphical Abstract 
-![](./graphic_abstract.jpg)
+![./graphic_abstract.jpg](./graphic_abstract.jpg)
 
 ## ⚙️ Requirements
 Dependencies are listed in `requirements.txt` and can be installed via pip:
