@@ -1,5 +1,8 @@
 # Non-parametricIntervalPrediction
 
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository contains the official implementation of the paper:  
 **"A Deep Learning-based Model for Interval Prediction of Real-time Clearing Price in Electricity Market"**
 
@@ -13,7 +16,8 @@ This repository contains the official implementation of the paper:
 ![](./graphic_abstract.jpg)
 
 ## Requirements
-Dependencies are listed in requirements.txt and can be installed by:
+Dependencies are listed in `requirements.txt` and can be installed via pip:
+```bash
 pip install -r requirements.txt
 
 ## Usage
@@ -25,3 +29,5 @@ If you wish to access the dataset to reproduce our results, please contact:
 
 ## Citation
 If you find this code or our paper useful for your research, please consider citing our work:
+
+
