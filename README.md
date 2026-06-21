@@ -1,14 +1,12 @@
 # Non-parametricIntervalPrediction
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This repository contains the official implementation of the paper:  
-**"A Deep Learning-based Model for Interval Prediction of Real-time Clearing Price in Electricity Market"** *(Currently under review / Accepted by [Journal Name])*.
+**"A Deep Learning-based Model for Interval Prediction of Real-time Clearing Price in Electricity Market"**
 
 ## 💡 Highlights
-* Time-shift feature construction and greedy selection optimize price dimensions.
-* VMD and CEEMDAN effectively resolve extreme non-stationarity in clearing prices.
-* Similarity-based non-parametric intervals dynamically quantify market uncertainty.
+* A novel electricity price interval prediction model is proposed.
+* Time-shift FC and greedy FS optimize electricity price feature dimensions.
+* VMD and CEEMDAN resolve extreme non-stationarity in clearing prices.
 * Non-parametric interval breaks coverage-sharpness trade-off in quantile regression.
 
 ## 📝 Overview
