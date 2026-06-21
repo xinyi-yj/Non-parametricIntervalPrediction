@@ -11,20 +11,17 @@ This repository contains the official implementation of the paper:
 
 ## Graphical abstract 
 ![](./graphic_abstract.jpg)
-## 📂 Repository Structure
 
-```text
-├── data/                    # Placeholder for dataset (See Data Availability)
-├── models/
-│   ├── lstm_model.py        # Base LSTM for point prediction
-│   ├── tcn_qr.py            # SOTA Temporal Convolutional Network with Quantile Regression (TCN-QR)
-│   └── lstm_qr.py           # LSTM with Quantile Regression
-├── utils/
-│   ├── feature_selection.py # Greedy-based feature selection & Time-shift construction
-│   ├── decomposition.py     # CEEMDAN and VMD implementations
-│   └── metrics.py           # Evaluation metrics (PICP, MIW, MPICD, Pinball Loss)
-├── interval_generator/
-│   └── similarity_match.py  # Non-parametric interval construction module
-├── main_point_pred.py       # Training and evaluation for point prediction
-├── main_interval_pred.py    # Training and evaluation for interval prediction & baselines
-└── requirements.txt         # Dependencies
+## Requirements
+Dependencies are listed in requirements.txt and can be installed by:
+pip install -r requirements.txt
+
+## Usage
+
+## Data Availability Statement
+Due to confidentiality and licensing agreements regarding the real-world electricity market operations, the raw operational dataset is not publicly uploaded to this repository.
+However, the data is available upon reasonable request for academic and research purposes.
+If you wish to access the dataset to reproduce our results, please contact:
+
+## Citation
+If you find this code or our paper useful for your research, please consider citing our work:
